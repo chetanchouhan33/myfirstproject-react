@@ -1,0 +1,28 @@
+@use "../../styles/abstracts/variables" as *;
+@use "../../styles/abstracts/mixins" as *;
+
+.header {
+    background: $primary-color;
+    color: white;
+    padding: 15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+            color: yellow;
+        }
+    }
+}
