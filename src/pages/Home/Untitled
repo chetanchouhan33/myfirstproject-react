@@ -1,0 +1,13 @@
+.home{
+
+    h1{
+
+        color:#0F62FE;
+    }
+
+    p{
+
+        margin-top:15px;
+    }
+
+}
